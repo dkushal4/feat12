@@ -1,0 +1,19 @@
+inputSet:
+  name: feat12main
+  identifier: feat12main
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: feat12
+    stages:
+      - stage:
+          identifier: da
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
